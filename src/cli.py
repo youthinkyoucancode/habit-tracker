@@ -2,9 +2,9 @@ import click
 from src.habit import Habit
 from src.habit_tracker import HabitTracker
 
-# Initialize the habit tracker
+# Initialize the habit tracker and load habits from 'habits.json'
 habit_tracker = HabitTracker()
-habit_tracker.load_habits_from_file('habits.json')
+habit_tracker.load_habits_from_file()  # No need to pass 'habits.json'
 
 @click.group()
 def cli():
@@ -55,7 +55,7 @@ def check(name, date):
     for habit in habit_tracker.list_habits():
         if habit.name.lower() == name.lower():
             habit.check(date)
-            habit_tracker.save_habits_to_file('habits.json')
+            habit_tracker.save_habits_to_file()  # No need to pass 'habits.json'
             click.echo(f"Habit '{habit.name}' marked as complete on {date}.")
             return
     click.echo(f"Habit '{name}' not found.")
