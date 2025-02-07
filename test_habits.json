@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Workout",
+        "desc": "Daily workout",
+        "periodicity": "daily",
+        "check_dates": []
+    }
+]

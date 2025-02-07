@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Morning workout",
+        "desc": "Daily exercise in the morning",
+        "periodicity": "daily",
+        "check_dates": [
+            "2025-01-18",
+            "2025-01-19",
+            "2025-01-20",
+            "2025-01-21"
+        ]
+    },
+    {
+        "name": "Read a book",
+        "desc": "Read 10 pages daily",
+        "periodicity": "daily",
+        "check_dates": [
+            "2025-01-18",
+            "2025-01-19",
+            "2025-01-20"
+        ]
+    },
+    {
+        "name": "Evening meditation",
+        "desc": "15 minutes of evening meditation",
+        "periodicity": "daily",
+        "check_dates": [
+            "2025-01-18",
+            "2025-01-19"
+        ]
+    },
+    {
+        "name": "Weekly yoga session",
+        "desc": "Attend a 1-hour yoga session every week",
+        "periodicity": "weekly",
+        "check_dates": [
+            "2025-01-14",
+            "2025-01-21",
+            "2025-01-28",
+            "2025-02-04"
+        ]
+    },
+    {
+        "name": "Weekly cleanup",
+        "desc": "Clean the house every weekend",
+        "periodicity": "weekly",
+        "check_dates": [
+            "2025-01-18",
+            "2025-01-25"
+        ]
+    }
+]
